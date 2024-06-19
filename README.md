@@ -45,6 +45,6 @@ This project is a clone of Walmart's e-commerce platform built using Next.js and
 
 ## Usage
 
-    Navigate through the site to explore different products and categories.
-    Use the search and filter options to find specific products.
-    Add products to the cart and proceed to checkout as a regular user.
+1. Navigate through the site to explore different products and categories.
+2. Use the search and filter options to find specific products.
+3. Add products to the cart and proceed to checkout as a regular user.
