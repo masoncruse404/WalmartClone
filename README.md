@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# README #
 
-## Getting Started
+## Next.js Walmart Clone - Repo
 
-First, run the development server:
+### What is this repository for? ###
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project is a clone of Walmart's e-commerce platform built using Next.js and integrated with Oxylabs for proxy management.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### version: 1.0.0
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Next.js Framework: Utilizes Next.js for server-side rendering, enabling fast page loads and SEO benefits.
+2. Oxylabs Integration: Uses Oxylabs proxies for web scraping and data aggregation.
+3. Responsive Design: Built with responsive web design principles to ensure usability across devices.
+4. Product Listings: Displays products similar to Walmart, with categories, search, and filtering functionality.
+5. Shopping Cart: Allows users to add products to a cart and proceed to checkout.
 
-## Learn More
+### How do I get set up? ###
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone from repo 
+2. Install dependencies
+3. Set up environment variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Clone the repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+    git clone https://github.com/your/repository.git
+    cd repository-name
 
-## Deploy on Vercel
+## Install dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+     npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Create a .env.local file in the root directory and add your Oxylabs API credentials:
+    cat > .env.local    
+
+## Set up environment variables:
+    OXYLABS_API_KEY=your_api_key_here
+    OXYLABS_SECRET=your_secret_here
+
+
+## Run the app
+
+    npm run dev
+
+## Usage
+
+    Navigate through the site to explore different products and categories.
+    Use the search and filter options to find specific products.
+    Add products to the cart and proceed to checkout as a regular user.
